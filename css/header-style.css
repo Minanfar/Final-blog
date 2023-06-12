@@ -1,0 +1,167 @@
+@import url(./color.css);
+
+:root {
+  margin: 0;
+  padding: 0;
+  font-size: larger;
+  box-sizing: border-box;
+  --dark-dark: #2a324b;
+  --very-dark: #434855;
+  --semi-dark: #767b91;
+  --mid-dark: #c7ccdb;
+  --mid-blue: #5d6173;
+  --light-blue: #7d7f85;
+  --acadia: #4f5362;
+  --light: #d0d6dc;
+  --light-red: #a6afba;
+  --red: #c43e2f;
+  --gold: #ffd700;
+  --header: #434855;
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+.menu-div {
+  width: 100%;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: 0.2fr 1fr 2fr;
+  background-color: var(--header);
+  color: var(--light);
+}
+.menu-div .menu-logo {
+  height: 4vw;
+  margin: 0 auto;
+  margin-top: 5px;
+  padding: 0.3rem;
+  opacity: 0.8;
+  filter: contrast(2);
+  filter: brightness(1.5);
+}
+
+.menu-div .logo-name {
+  grid-column: 2;
+  align-self: center;
+  font-weight: lighter;
+  filter: contrast(1.2);
+  font-size: 1rem;
+}
+
+.ul-menu {
+  list-style: none;
+  display: flex;
+ 
+  justify-content: end;
+  gap: clamp(0.5rem, 25%, 1rem);
+  margin: 10px;
+  align-items: center;
+}
+.main-li {
+  width: 10%;
+  padding: 1%;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  z-index: 1000;
+  font-size: 1rem;
+}
+.ul-menu li a {
+  color: var(--light);
+  text-decoration: none;
+}
+
+.ul-menu .main-li:hover {
+  font-weight: bolder;
+  filter: contrast(0.9);
+  background-color: var(--light-blue);
+  box-shadow: inset 2px 1px 4px var(--header);
+  transition: all 40ms ease-in-out;
+  border-radius: 2rem;
+}
+
+.headline-box {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.background-img {
+  background-image: url(/images/assassins-creed.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+  width: 100vw;
+  filter: grayscale(0.5);
+}
+
+h1 {
+  left: 20%;
+  width: 60%;
+  font-size: clamp(3rem, 7vw, 8rem);
+  text-shadow: 0 0 10px #767575;
+  animation-name: hover-one;
+  animation: hover-one 500ms ease-in-out 1 forwards;
+}
+h1 {
+  transform: color 200ms ease;
+}
+@keyframes hover-one {
+  0% {
+    left: -100%;
+    bottom: 0px;
+  }
+  20% {
+    left: 0%;
+    bottom: 0px;
+  }
+  40% {
+    left: 5%;
+    bottom: 0px;
+  }
+  50% {
+    left: 10%;
+    bottom: 0px;
+  }
+  60% {
+    left: 15%;
+    bottom: 0px;
+  }
+  70% {
+    left: 17%;
+    bottom: 0px;
+  }
+  80% {
+    left: 18%;
+    bottom: 0px;
+  }
+  100% {
+    color: var(--light);
+    left: 20%;
+    bottom: 0px;
+  }
+}
+
+.mirage-more {
+  background-color: var(--header);
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  color: var(--light);
+  padding: 10px;
+}
+.mirage-more button {
+  border: none;
+  border-radius: 0.2rem;
+  background-color: var(--light-red);
+  padding: 10px;
+  box-shadow: 1px 1px 2px var(--light-red);
+}
+.mirage-more button:hover {
+  font-weight: bolder;
+  box-shadow: inset 1px 1px 2px var(--header);
+}

@@ -1,0 +1,27 @@
+/* @import url(./contact-header.css);
+@import url(./footer.css);
+@import url(./header-style.css);
+@import url(./style-index.css); */
+
+/* @media (min-width:390px) {
+  .ul-menu {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 10%;
+    top: 1%;
+    opacity: 0;
+  }
+  .menu-div input[type="checkbox"]:checked ~ .ul-menu {
+    opacity: 1;
+    background-color: antiquewhite;
+  }
+  */
+@media (min-width:450px){
+.side-box{
+width: 100vw;
+background-color: red;
+}
+}
+

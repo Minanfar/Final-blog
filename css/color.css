@@ -1,0 +1,20 @@
+:root {
+    margin: 0;
+    padding: 0;
+    font-size:larger;
+    box-sizing: border-box;
+    --dark-dark: #0b3139;
+    --very-dark: #0f4754;
+    --semi-dark: #16697a;
+    --mid-dark: #3c92a7;
+    --mid-blue: #71b6c6;
+    --light-blue: #82c0cc;
+    --very-light-blue: #95cbd6;
+    --acadia: #79a1a5;
+    --light: #dcd8d0;
+    --light-red: #e2c1b6;
+    --red: #c43e2f;
+    --gold: #ffd700;
+    --kaky:#fff;
+  }
+  
