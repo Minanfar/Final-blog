@@ -1,8 +1,7 @@
 @import url(./color.css);
 
 :root {
-  margin: 0;
-  padding: 0;
+
   font-size: larger;
   box-sizing: border-box;
   --dark-dark: #2a324b;
@@ -21,9 +20,10 @@
 *{
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
 }
 .menu-div {
-  width: 100%;
+  width: 100vw;
   display: grid;
   justify-content: center;
   align-items: center;
@@ -31,8 +31,8 @@
   background-color: var(--header);
   color: var(--light);
 }
-.menu-div .menu-logo {
-  height: 4vw;
+.menu-logo {
+  width: 2.2rem;
   margin: 0 auto;
   margin-top: 5px;
   padding: 0.3rem;
@@ -40,67 +40,62 @@
   filter: contrast(2);
   filter: brightness(1.5);
 }
-
 .menu-div .logo-name {
   grid-column: 2;
   align-self: center;
   font-weight: lighter;
   filter: contrast(1.2);
-  font-size: 1rem;
+  font-size: clamp(.5rem,5rem,.8rem);
 }
-
 .ul-menu {
   list-style: none;
-  display: flex;
- 
-  justify-content: end;
-  gap: clamp(0.5rem, 25%, 1rem);
+  display: flex; 
+  justify-content: center;
+  gap:1.2rem;
   margin: 10px;
+  padding-left: 2rem;
   align-items: center;
 }
 .main-li {
-  width: 10%;
+  width: 14%;
   padding: 1%;
   justify-content: center;
   text-align: center;
   position: relative;
   z-index: 1000;
-  font-size: 1rem;
+  font-size: .8rem;
 }
 .ul-menu li a {
   color: var(--light);
   text-decoration: none;
 }
-
 .ul-menu .main-li:hover {
   font-weight: bolder;
   filter: contrast(0.9);
-  background-color: var(--light-blue);
   box-shadow: inset 2px 1px 4px var(--header);
   transition: all 40ms ease-in-out;
   border-radius: 2rem;
 }
-
 .headline-box {
   text-align: center;
   display: flex;
   justify-content: center;
   position: relative;
 }
-
 .background-img {
-  background-image: url(/images/assassins-creed.jpg);
+  background-image: url(/Final-blog/images/assassins-creed.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 500px;
+  background-position: center center;
+  height: 80vh;
   width: 100vw;
-  filter: contrast(1.2);
+  filter: grayscale(0.3);
 }
 
 h1 {
   bottom: 10%;
   width: 100vw;
-  font-size: clamp(2rem, 25%, 4rem);
+  font-size: clamp(.5rem,50vw, 2rem);
   text-shadow: 0 0 10px #767575;
   background-color: var(--very-dark);
   padding: 1rem 5rem;
@@ -130,7 +125,7 @@ textarea {
   padding: 0.5rem;
   margin: 1rem 0;
   border-radius: 0.5rem;
-  width: 50%;
+  width: 70%;
 }
 .input-container textarea {
   width: 80%;
