@@ -40,10 +40,10 @@ main {
   background-color: var(--light);
 }
 .shop-container:hover{
-    box-shadow: 2px 2px 5px rgba(170, 170, 169, 0.474);
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 .shop-container .shop-foto {
- 
+    box-shadow: 0 26px 58px 0 rgba(0, 0, 0, .22), 0 5px 14px 0 rgba(0, 0, 0, .18);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;

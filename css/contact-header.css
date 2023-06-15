@@ -130,13 +130,28 @@ textarea {
 .input-container textarea {
   width: 80%;
   height: 25%;
-  border: 2px solid var(--dark-dark);
   border-radius: 1rem;
 }
 .input-container input::placeholder,
 textarea::placeholder {
-  color: rgba(137, 137, 137, 0.526);
+  color: rgba(99, 99, 99, 0.526);
   font-style: italic;
+}
+input, textarea {
+  border: none;
+  outline: none;
+  border-radius: 15px;
+  padding: 1em;
+  background-color: #d9d9d9;
+  box-shadow: inset 2px 5px 10px rgba(131, 131, 131, 0.3);
+  transition: 300ms ease-in-out;
+}
+
+input:focus, textarea:focus {
+  background-color: rgba(178, 229, 249, 0.693);
+  transform: scale(1.05);
+  box-shadow: 13px 13px 50px #c5c5c5,
+             -13px -13px 50px #ffffff;
 }
 /* .footer-container {
   width: 100vw;
