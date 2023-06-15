@@ -17,15 +17,30 @@
   --gold: #ffd700;
 }
 * {
-  margin: 0;
   padding: 0;
+  margin: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
+
+.scroller {
+  position: fixed;
+  bottom: 20px;
+  z-index: 999;
+  right: 10px;
+  padding: 10px;
+  background-color: #80281f8d;
+  border-radius: 2rem;
+}
+a i{
+ font-size: 1.2rem;
+}
+
 main {
   display: flex;
   flex-wrap: wrap;
   gap: 3rem;
-  margin: 2rem 1rem;
+  margin: 5rem 1.2rem;
   justify-content: center;
 }
 
@@ -34,16 +49,16 @@ main {
   flex-direction: column;
   justify-content: center;
   width: 16rem;
-  /* outline: 2px solid var(--semi-dark); */
   border-radius: 1rem;
   padding: 2rem;
   background-color: var(--light);
 }
-.shop-container:hover{
-    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+.shop-container:hover {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
 .shop-container .shop-foto {
-    box-shadow: 0 26px 58px 0 rgba(0, 0, 0, .22), 0 5px 14px 0 rgba(0, 0, 0, .18);
+  box-shadow: 0 26px 58px 0 rgba(0, 0, 0, 0.22),
+    0 5px 14px 0 rgba(0, 0, 0, 0.18);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -51,16 +66,16 @@ main {
   height: 15rem;
   margin-bottom: 2rem;
   align-self: center;
-  border-radius: 30% 70% 70% 30% / 30% 30% 70% 70% ;
+  border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
 }
-.shop-text  {
-margin-bottom: 2rem;
+.shop-text {
+  margin-bottom: 2rem;
   align-self: center;
   text-align: center;
 }
-hr{
-    border:2px solid #16697a5b;
-    margin-bottom: 1rem;
+hr {
+  border: 2px solid #16697a5b;
+  margin-bottom: 1rem;
 }
 button {
   align-self: center;
@@ -139,42 +154,42 @@ button:active {
 }
 
 .foto-01 {
-    background-image: url(../images/2007/2013.jpg);
-  }
-  .foto-02 {
-    background-image: url(../images/2009-11.jpg);
-  }
-  
-  .foto-03 {
-    background-image: url(../images/2010-ii.jpg);
-  }
-  .foto-04 {
-    background-image: url(../images/2011-ii.jpg);
-  }
-  .foto-05 {
-    background-image: url(../images/2012-ii.jpg);
-  }
-  .foto-06 {
-    background-image: url(../images/2013-ii.jpg);
-  }
-  .foto-07 {
-    background-image: url(../images/2014-ii.jpg);
-  }
-  .foto-08 {
-    background-image: url(../images/2014-iii.jpg);
-  }
-  .foto-09 {
-    background-image: url(../images/2015-ii.jpg);
-  }
-  .foto-10 {
-    background-image: url(../images/2017.ii.png);
-  }
-  .foto-11 {
-    background-image: url(../images/odysse-ii.png);
-  }
-  .foto-12 {
-    background-image: url(../images/2021-ii.jpg);
-  }
-  .foto-13 {
-    background-image: url(../images/2023.webp);
-  }
+  background-image: url(../images/2007/2013.jpg);
+}
+.foto-02 {
+  background-image: url(../images/2009-11.jpg);
+}
+
+.foto-03 {
+  background-image: url(../images/2010-ii.jpg);
+}
+.foto-04 {
+  background-image: url(../images/2011-ii.jpg);
+}
+.foto-05 {
+  background-image: url(../images/2012-ii.jpg);
+}
+.foto-06 {
+  background-image: url(../images/2013-ii.jpg);
+}
+.foto-07 {
+  background-image: url(../images/2014-ii.jpg);
+}
+.foto-08 {
+  background-image: url(../images/2014-iii.jpg);
+}
+.foto-09 {
+  background-image: url(../images/2015-ii.jpg);
+}
+.foto-10 {
+  background-image: url(../images/2017.ii.png);
+}
+.foto-11 {
+  background-image: url(../images/odysse-ii.png);
+}
+.foto-12 {
+  background-image: url(../images/2021-ii.jpg);
+}
+.foto-13 {
+  background-image: url(../images/2023.webp);
+}
