@@ -23,8 +23,10 @@
 }
 main {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 3rem;
   margin: 2rem 1rem;
+  justify-content: center;
 }
 
 .shop-container {
@@ -32,12 +34,16 @@ main {
   flex-direction: column;
   justify-content: center;
   width: 16rem;
-  outline: 2px solid var(--semi-dark);
+  /* outline: 2px solid var(--semi-dark); */
   border-radius: 1rem;
   padding: 2rem;
+  background-color: var(--light);
+}
+.shop-container:hover{
+    box-shadow: 2px 2px 5px rgba(170, 170, 169, 0.474);
 }
 .shop-container .shop-foto {
-  background-image: url(../images/2007/2013.jpg);
+ 
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -132,6 +138,43 @@ button:active {
   transition: box-shadow 0.2s ease-in;
 }
 
-.foto-01{
+.foto-01 {
     background-image: url(../images/2007/2013.jpg);
-}
+  }
+  .foto-02 {
+    background-image: url(../images/2009-11.jpg);
+  }
+  
+  .foto-03 {
+    background-image: url(../images/2010-ii.jpg);
+  }
+  .foto-04 {
+    background-image: url(../images/2011-ii.jpg);
+  }
+  .foto-05 {
+    background-image: url(../images/2012-ii.jpg);
+  }
+  .foto-06 {
+    background-image: url(../images/2013-ii.jpg);
+  }
+  .foto-07 {
+    background-image: url(../images/2014-ii.jpg);
+  }
+  .foto-08 {
+    background-image: url(../images/2014-iii.jpg);
+  }
+  .foto-09 {
+    background-image: url(../images/2015-ii.jpg);
+  }
+  .foto-10 {
+    background-image: url(../images/2017.ii.png);
+  }
+  .foto-11 {
+    background-image: url(../images/odysse-ii.png);
+  }
+  .foto-12 {
+    background-image: url(../images/2021-ii.jpg);
+  }
+  .foto-13 {
+    background-image: url(../images/2023.webp);
+  }
