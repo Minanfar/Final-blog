@@ -108,21 +108,21 @@ h3 {
   padding: 4rem;
   text-align: justify;
 }
-
-.foto-container01 {
-  background-image: url(../images/2007/2013.jpg);
-}
-.aclist {
-  max-width: 50vw;
-  min-width: 15rem;
-  align-self: center;
-}
 .image {
   background-size: cover;
   background-position: center center;
   width: 15rem;
   height: 20rem;
   margin: 0 auto;
+}
+.aclist {
+  max-width: 50vw;
+  min-width: 15rem;
+  align-self: center;
+}
+
+.foto-container01 {
+  background-image: url(../images/2007/2013.jpg);
 }
 .foto-container02 {
   background-image: url(../images/2009-11.jpg);

@@ -87,7 +87,7 @@
 }
 
 .background-img {
-  background-image: url(/Final-blog/images/assassins-creed.jpg);
+  background-image: url(../images/assassins-creed.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -96,7 +96,7 @@
   filter: grayscale(0.5);
 }
 .front-img {
-  background-image: url(/Final-blog/images/assassins-creed.jpg);
+  background-image: url(../images/assassins-creed.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
