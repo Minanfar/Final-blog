@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300;400;600&family=Pacifico&family=Roboto+Condensed:wght@300;400;700&display=swap');
 :root {
   margin: 0;
   padding: 0;
@@ -15,87 +16,15 @@
   --red: #c43e2f;
   --gold: #ffd700;
   --header: #434855;
+  font-family: 'Jost', sans-serif;
+font-family: 'Pacifico', cursive;
+font-family: 'Roboto Condensed', sans-serif;
 }
 * {
   padding: 0;
   margin: 0;
 }
-/* .footer-container {
-  width: 100vw;
-  height: clamp(20rem, 50vw, 30vw);
-  background-color: var(--header);
-  display: flex;
-  padding: .5rem;
-}
 
-.footer-titel {
-  font-size: 6vw;
-  background-clip: text;
-  -webkit-background-clip: text;
-  color: transparent;
-  background-image: linear-gradient(
-    90deg,
-    rgba(97, 97, 97, 1) 0%,
-    rgba(227, 225, 224, 0.679) 52%,
-    rgba(255, 255, 255, 1) 57%,
-    rgba(201, 201, 201, 1) 65%,
-    rgba(65, 65, 65, 1) 100%,
-    rgba(255, 255, 255, 1) 57%
-  );
-  -webkit-background-image: -webkit-linear-gradient(
-    90deg,
-    rgba(97, 97, 97, 1) 0%,
-    rgba(227, 225, 224, 0.579) 52%,
-    rgba(255, 255, 255, 1) 57%,
-    rgba(201, 201, 201, 1) 65%,
-    rgba(65, 65, 65, 1) 100%
-  );
-  -webkit-text-fill-color: transparent;
-  -webkit-text-stroke: 1px rgba(0, 0, 0, 0.5);
-}
-
-.footer-container .fontawesome {
-  display: flex;
-  justify-content: flex-start;
-}
-.fontawesome .fa-brands {
-  color: var(--light);
-  padding-left: 1rem;
-  font-size: clamp(1rem, 25%, 1.5rem);
-  margin-bottom: 5rem;
-}
-.fa-brands:hover {
-  transform: scale(1.5, 1.5);
-  color: var(--light-blue);
-  cursor: pointer;
-}
-.footer { 
-  margin: 2rem 2rem 0 0;
-  display: flex;
-  flex-direction: column;
-  align-self: flex-start;
-}
-.footer li {
-  font-size: 0.8rem;
-  padding-right: 20px;
-}
-.footer li a {
-  cursor: pointer;
-  text-decoration: none;
-  color: var(--light);
-}
-.footlist {
-  margin-top: 1rem;
-  text-decoration: none;
-  list-style: none;
-  color: var(--light);
-}
-footer p {
-  font-size: clamp(0.7rem, 25%, 0.8rem);
-  display: flex;
-  justify-content: center;
-  padding: 2rem;
-} */
 .footer-container {
   width: 100vw;
   height: clamp(30vw, 25%, 40vw);

@@ -1,5 +1,6 @@
 @import url(./header-style.css);
 @import url(./color.css);
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@300;400;600&family=Pacifico&family=Roboto+Condensed:wght@300;400;700&display=swap");
 
 :root {
   margin: 0;
@@ -18,6 +19,9 @@
   --red: #c43e2f;
   --gold: #ffd700;
   --header: #434855;
+  font-family: "Jost", sans-serif;
+  font-family: "Pacifico", cursive;
+  font-family: "Roboto Condensed", sans-serif;
 }
 * {
   padding: 0;
@@ -26,18 +30,7 @@
   scroll-behavior: smooth;
 }
 
-.scroller {
-  position: fixed;
-  bottom: 20px;
-  z-index: 999;
-  right: 10px;
-  padding: 10px;
-  background-color: #80281f8d;
-  border-radius: 2rem;
-}
-a i{
- font-size: 1.2rem;
-}
+
 
 /* ----------------Menu---------------------------
 
@@ -45,6 +38,22 @@ a i{
 
 /* -------------first text with near box--------------------------------------------
 --------------------------------------------------------- */
+.mirage{
+  background-color: #a6afba;
+  box-shadow: 3px 3px 5px var(--light-blue);
+  padding: 10px 20px;
+  border-radius:5px ;
+ 
+cursor: pointer;
+}
+.mirage a{
+  color: #434855;
+  text-decoration: none;
+}
+.mirage:hover{
+ color: #d5d8e6;
+}
+
 h2 {
   font-size: 2rem;
 }
@@ -71,24 +80,25 @@ hr {
 .bio {
   background-color: var(--light-red);
   border-radius: 0px 42px 0px 42px;
-  padding: 2rem 3rem;
+  padding: 5%;
   max-height: fit-content;
   min-width: 40vw;
-  margin: 1rem;
+  margin: 5%;
 }
 
 .bio-container a {
   color: var(--red);
   text-decoration: none;
   cursor: pointer;
+
 }
 .bio p {
   text-align: justify;
 }
 .side-box {
   background-color: var(--light-blue);
-  padding: 2rem 2rem;
-  margin: 1rem;
+  padding: 5%;
+ margin: 5%;
   border-radius: 60px 0px 60px 60px;
   min-width: 5vw;
   max-height: fit-content;
@@ -115,10 +125,9 @@ hr {
   padding: 5%;
   height: 40rem;
   max-width: 70rem;
-  
 }
 .home-sub-container > div {
-  background-position:  center;
+  background-position: center;
   flex: 0 0 8rem;
   cursor: pointer;
   background-size: cover;
@@ -162,46 +171,36 @@ hr {
   transform: scale(1.5, 1.5);
 }
 .onegrid {
-  
   background-image: url(../images/2007.webp);
 }
 .twogrid {
-  
   background-image: url(../images/2009.webp);
 }
 .threegrid {
-  
   background-image: url(../images/2010.jpg);
 }
 .fourgrid {
-  
   background-image: url(../images/2011.webp);
 }
 .fivegrid {
- 
   background-image: url(../images/2012.jpg);
 }
 .sixgrid {
-  
   background-image: url(../images/2013.jpg);
 }
 .sevengrid {
-
   background-image: url(../images/2014-2.jpg);
 }
 .eightgrid {
-  
   background-image: url(../images/2014.jpg);
 }
 .ninegrid {
-  
   background-image: url(../images/2015.jpg);
 }
 .tengrid {
-  
   background-image: url(../images/2017.jpg);
 }
- .elevengrid {
+.elevengrid {
   transform-origin: right;
   background-image: url(../images/2018.jpg);
 }
@@ -240,4 +239,3 @@ hr {
 }
 /* * ------------------footer-----------------------------------
 ---------------------------------------------------------- */
-
