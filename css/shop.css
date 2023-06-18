@@ -23,18 +23,21 @@
   scroll-behavior: smooth;
 }
 
-.scroller {
+#scroller {
   position: fixed;
   bottom: 20px;
   z-index: 999;
   right: 10px;
   padding: 10px;
-  background-color: #80281f8d;
-  border-radius: 2rem;
+  
 }
-a i{
+#scroller i{
  font-size: 1.2rem;
+ color:rgb(140, 140, 140);
+ text-shadow: 5px 5px 20px rgb(120, 120, 120);
+
 }
+
 
 main {
   display: flex;
