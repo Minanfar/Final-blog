@@ -115,10 +115,6 @@ h3 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  /* background-image: url(../images/frame-gc7d0a2e7c_1280.png);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat; */
   gap: 1rem;
   height: fit-content;
   padding: 4rem;
