@@ -1,0 +1,89 @@
+@import url(./color.css);
+
+:root {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+
+.menu-div {
+  width: 100vw;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: 0.2fr 1fr 2fr;
+  background-color: var(--header);
+  color: var(--light);
+}
+.menu-logo {
+  width: 2.2rem;
+  margin: 0 auto;
+  margin-top: 5px;
+  padding: 0.3rem;
+  opacity: 0.8;
+  filter: contrast(2);
+  filter: brightness(1.5);
+}
+.menu-div .logo-name {
+  grid-column: 2;
+  align-self: center;
+  font-weight: lighter;
+  filter: contrast(1.2);
+  font-size: clamp(0.5rem, 5rem, 0.8rem);
+}
+.ul-menu {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 1.2rem;
+  margin: 10px;
+  padding-left: 2rem;
+  align-items: center;
+}
+.main-li {
+  width: 14%;
+  padding: 1%;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  z-index: 1000;
+  font-size: 0.8rem;
+}
+.ul-menu li a {
+  color: var(--light);
+  text-decoration: none;
+}
+.ul-menu .main-li:hover {
+  font-weight: bolder;
+  filter: contrast(0.9);
+  box-shadow: inset 2px 1px 4px var(--header);
+  transition: all 40ms ease-in-out;
+  border-radius: 2rem;
+}
+.headline-box {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.background-img {
+  background-image: url(../images/assassins-creed.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 80vh;
+  width: 100vw;
+  filter: grayscale(0.3);
+}
+
+h1 {
+  bottom: 10%;
+  width: 100vw;
+  font-size: clamp(0.5rem, 50vw, 2rem);
+  text-shadow: 0 0 10px #767575;
+  background-color: var(--very-dark);
+  padding: 1rem 5rem;
+  color: var(--light);
+}

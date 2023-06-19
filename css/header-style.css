@@ -1,28 +1,5 @@
 @import url(./color.css);
 
-:root {
-  margin: 0;
-  padding: 0;
-  font-size: larger;
-  box-sizing: border-box;
-  --dark-dark: #2a324b;
-  --very-dark: #434855;
-  --semi-dark: #767b91;
-  --mid-dark: #c7ccdb;
-  --mid-blue: #5d6173;
-  --light-blue: #7d7f85;
-  --acadia: #4f5362;
-  --light: #d0d6dc;
-  --light-red: #a6afba;
-  --red: #c43e2f;
-  --gold: #ffd700;
-  --header: #434855;
-}
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
 .menu-div {
   width: 100%;
   display: grid;
@@ -76,7 +53,7 @@
 .ul-menu .main-li:hover {
   font-weight: bolder;
   filter: contrast(0.9);
-  box-shadow: inset 2px 1px 4px var(--header);
+  box-shadow: inset 2px 2px 4px var(--header);
   transition: all 40ms ease-in-out;
   border-radius: 2rem;
 }

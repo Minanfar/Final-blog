@@ -3,16 +3,17 @@
     padding: 0;
     font-size:larger;
     box-sizing: border-box;
-    --dark-dark: #0b3139;
-    --very-dark: #0f4754;
-    --semi-dark: #16697a;
-    --mid-dark: #3c92a7;
-    --mid-blue: #71b6c6;
-    --light-blue: #82c0cc;
-    --very-light-blue: #95cbd6;
-    --acadia: #79a1a5;
-    --light: #dcd8d0;
-    --light-red: #e2c1b6;
+    scroll-behavior: smooth;
+    --dark-dark: #2a324b;
+    --very-dark: #434855;
+    --semi-dark: #767b91;
+    --mid-dark: #c7ccdb;
+    --mid-blue: #5d6173;
+    --light-blue: #7d7f85;
+    --acadia: #4f5362;
+    --light: #d0d6dc;
+    --light-red: #a6afba;
     --red: #c43e2f;
-    --gold: #ffd700;  
+    --gold: #ffd700;
+    --header: #434855;
   }

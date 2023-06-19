@@ -1,36 +1,6 @@
-@import url(./header-style.css);
+
 @import url(./color.css);
 @import url("https://fonts.googleapis.com/css2?family=Jost:wght@300;400;600&family=Pacifico&family=Roboto+Condensed:wght@300;400;700&display=swap");
-
-:root {
-  margin: 0;
-  padding: 0;
-  font-size: larger;
-  box-sizing: border-box;
-  --dark-dark: #2a324b;
-  --very-dark: #434855;
-  --semi-dark: #767b91;
-  --mid-dark: #c7ccdb;
-  --mid-blue: #5d6173;
-  --light-blue: #7d7f85;
-  --acadia: #4f5362;
-  --light: #d0d6dc;
-  --light-red: #a6afba;
-  --red: #c43e2f;
-  --gold: #ffd700;
-  --header: #434855;
-  font-family: "Jost", sans-serif;
-  font-family: "Pacifico", cursive;
-  font-family: "Roboto Condensed", sans-serif;
-}
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  scroll-behavior: smooth;
-}
-
-
 
 /* ----------------Menu---------------------------
 
@@ -38,20 +8,20 @@
 
 /* -------------first text with near box--------------------------------------------
 --------------------------------------------------------- */
-.mirage{
+.mirage {
   background-color: #a6afba;
   box-shadow: 3px 3px 5px var(--light-blue);
   padding: 10px 20px;
-  border-radius:5px ;
- 
-cursor: pointer;
+  border-radius: 5px;
+  cursor: pointer;
+  ;
 }
-.mirage a{
+.mirage a {
   color: #434855;
   text-decoration: none;
 }
-.mirage:hover{
- color: #d5d8e6;
+.mirage a:hover {
+  color: #d5d8e6;
 }
 
 h2 {
@@ -90,7 +60,6 @@ hr {
   color: var(--red);
   text-decoration: none;
   cursor: pointer;
-
 }
 .bio p {
   text-align: justify;
@@ -98,15 +67,15 @@ hr {
 .side-box {
   background-color: var(--light-blue);
   padding: 5%;
- margin: 5%;
-  border-radius: 60px 0px 60px 60px;
+  margin: 5% 5% 0 5%;
+  border-radius: 2rem 0 2rem 2rem;
   min-width: 5vw;
   max-height: fit-content;
 }
 .mid-tile-headline {
   margin: 5rem 2rem;
   background-color: var(--mid-blue);
-  border-radius: 5%;
+  border-radius: 1rem;
 }
 .main-headline {
   margin: initial;
@@ -125,6 +94,7 @@ hr {
   padding: 5%;
   height: 40rem;
   max-width: 70rem;
+  border-radius: 2rem;
 }
 .home-sub-container > div {
   background-position: center;
@@ -132,7 +102,7 @@ hr {
   cursor: pointer;
   background-size: cover;
   background-repeat: no-repeat;
-  border-radius: 10%;
+  border-radius: 0.5rem;
   min-width: 5rem;
   max-width: 10rem;
   height: 3rem;
@@ -141,7 +111,7 @@ hr {
 }
 .home-sub-container > div:nth-child(even) {
   animation-name: images;
-  animation: images 5s infinite ease-in-out alternate;
+  animation: images 7s infinite ease-in-out alternate;
 }
 
 @keyframes images {
@@ -154,7 +124,7 @@ hr {
 }
 .home-sub-container > div:nth-child(odd) {
   animation-name: oddimages;
-  animation: images 5s infinite ease-in-out alternate-reverse;
+  animation: images 7s infinite ease-in-out alternate-reverse;
 }
 @keyframes oddimages {
   from {
@@ -216,7 +186,7 @@ hr {
   width: 30%;
   height: 500px;
   text-align: justify;
-  border-radius: 0px 42px 0px 42px;
+  border-radius: 0 2rem 0 2rem;
   -webkit-border-radius: 0px 42px 0px 42px;
   -moz-border-radius: 0px 42px 0px 42px;
   background-color: rgb(119, 104, 133, 0.4);
